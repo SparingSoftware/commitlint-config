@@ -1,0 +1,33 @@
+{
+  "name": "@sparing-software/commitlint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "is-ci || husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparingSoftware/commitlint-config.git"
+  },
+  "author": "Sparing Software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparingSoftware/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/SparingSoftware/commitlint-config#readme",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.4.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@sparing-software/prettier-config": "^1.0.0",
+    "husky": "^8.0.0",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.4"
+  }
+}
