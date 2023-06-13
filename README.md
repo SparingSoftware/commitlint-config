@@ -1,6 +1,6 @@
 # @sparing-software/commitlint-config
 
-`.commitlintrc`
+`.commitlintrc.json`
 
 ```json
 {
